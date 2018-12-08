@@ -76,6 +76,7 @@ def simpleRunDT(self, train_ratio = 0.75, function = 1):
 1). Activition.sigmoid(data, deri = False): <br>**sigmoid function** (deri = False),
 
 <p align = "center"><a href="https://www.codecogs.com/eqnedit.php?latex=sig(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?sig(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-x}}" title="sig(x) = \frac{1}{1 + e^{-x}}" /></a></p>
+
 <br> as well as **derivative sigmoid** (deri = True)
 
 <p align = "center"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\delta&space;sig(x)}{\delta&space;x}&space;=&space;sig(x)(1&space;-&space;sig(x))" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\frac{\delta&space;sig(x)}{\delta&space;x}&space;=&space;sig(x)(1&space;-&space;sig(x))" title="\frac{\delta sig(x)}{\delta x} = sig(x)(1 - sig(x))" /></a></p>
